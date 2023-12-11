@@ -1,0 +1,36 @@
+#hero {
+  background-image: url("images/photo-01.png"), url("images/Layer.jpg");
+  background-position: top, center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover, cover;
+}
+#history {
+  background-image: url("images/peak.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#team {
+  background-image: url("images/photo-03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#default-carousel .carousel-wrapper {
+    display: flex;
+  }
+  
+  #default-carousel .carousel-item {
+    flex: 0 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    #default-carousel .carousel-wrapper {
+      flex-direction: column;
+    }
+  
+    #default-carousel .carousel-item {
+      width: 100%;
+    }
+  }
+  
